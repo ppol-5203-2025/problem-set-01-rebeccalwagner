@@ -28,3 +28,27 @@ question-01-key/
 ```
 
 ---
+
+## Folder Descriptions
+
+### `code/`
+Contains Python scripts for processing data and generating figures.
+
+- **`main.py`** – Primary analysis pipeline.  
+- **`data_processing.py`** – Cleans and prepares raw data.  
+- **`additional_analysis.py`** – Runs supplementary or robustness analyses.  
+- **`appendix.py`** – Produces additional figures or appendix results.
+
+### `data/`
+Holds input datasets.
+
+- **`raw_data.csv`** – Original dataset (unprocessed).  
+- **`clean_data.csv`** – Cleaned version created by the data processing script.
+
+### `figures/`
+Stores all generated plots and figures.
+
+- **`fig_1.png` – `fig_5.png`** – Main analysis figures.  
+- **`fig_1a_hetro.png`, `fig_2a_polar.png`, `fig_3a_robust.png`** – Supplementary robustness or sensitivity figures.
+
+---
